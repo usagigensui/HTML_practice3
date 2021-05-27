@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parallax {
+  perspective: 1px;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  font-size: 200%;
+}
+.parallax_layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 400px 0;
+}
+.parallax_layerbase {
+  transform: translateZ(0);
+}
+.parallax_layerback {
+  transform: translateZ(-1px);
+}
+
+.title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

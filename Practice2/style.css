@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+main {
+  height: 100%;
+  margin: 0 auto;
+  font-size: 10px;
+}
+
+div {
+  height: 100%;
+  padding: 5%;
+  color: #fff;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 固定背景 */
+.parallax-bg {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-1 {
+  background-image: url(img/アニマル.png);
+}
+
+.bg-2 {
+  background-image: url(img/木.png);
+}
+
+.bg-3 {
+  background-image: url(img/バラ.png);
+}
+
+.bg-4 {
+  background-image: url(img/雨.png);
+}
+
+.bg-5 {
+  background-image: url(img/花.png);
+}
+
+/* スクロールコンテンツ */
+.scroll-box1 {
+  background-color: #111;
+}
+
+.scroll-box2 {
+  background-color: #222;
+}
+
+.scroll-box3 {
+  background-color: #333;
+}
+
+.scroll-box4 {
+  background-color: #444;
+}
+
+.scroll-box5 {
+  background-color: #555;
+}
+
+.scroll-box6 {
+  background-color: #666;
+}
